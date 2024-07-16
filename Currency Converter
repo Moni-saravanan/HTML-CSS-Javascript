@@ -17,47 +17,6 @@
             background-size: 100% 100%;
             
         }
-        .container{
-            background-color: rgb(212, 237, 239);
-            padding: 40px;
-            text-align: center;
-            border-radius: 20px;
-        }
-        /* .currency{
-            background-color: rgb(253, 222, 249);
-            padding-left: 10px;
-            cursor: pointer;
-        } */
-        #btn{
-            background-color: rgb(253, 254, 254);
-            color: rgb(8, 9, 9);
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            padding: 7px 12px;
-            /* width: ; */
-        }
-        
-        #btn:hover{
-            background-color: rgb(8, 9, 9);
-            color: rgb(253, 254, 254);
-            border-color: aliceblue;
-        }
-        html,
-body{
-   font-family: 'Poppins', sans-serif;
-   background-color:#f5e8ba;
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-}
-  
-  body{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
   
   .container{
     background-color:#1f2029;
