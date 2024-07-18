@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playwrite+BE+WAL:wght@100..400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "EB Garamond", serif;
+}
+.heading{
+    color: #016673;
+}
+.container{
+    padding: 100px;
+    text-align: center;
+}
+.accordian{
+    padding: 20px 10px;
+    font-size: larger;
+}
+.container .accordian.active .accordian-heading{
+    background-color: #016673;
+}
+.container .accordian.active .accordian-heading{
+    color: white;
+}
+.container .accordian.active .accordian-heading i{
+    transform: rotate(180deg);
+}
+.container .accordian.active .accordian-content{
+    display: block;
+}
+.accordian-heading{
+    border: 2px solid;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.accordian-content{
+    color: #000000;
+    background-color: antiquewhite;
+    padding-inline: 10px;
+    text-align: justify;
+    line-height: 25px;
+    border: 2px solid rgb(247, 168, 65);
+    display: none;
+    border-top: 0;
+    font-size: large;
+    font-stretch: expanded;
+}
