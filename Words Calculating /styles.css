@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+    display: flex;
+    background-color: #405D72;
+}
+#wrapper{
+    border: none;
+    padding: 10px 20px;
+    height: 500px;
+    background-color:#E68369;
+}
+h1{
+    color: #131842;
+    font-family: "Baskervville SC", serif;
+}
+textarea{
+    margin-top: 20px;
+    height: 300px;
+    text-align: justify;
+    width: 280px ;
+    font-size: medium;
+    padding: 10px 10px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: #131842;
+    background-color: #FBF6E2;
+}
+button{
+    margin-top: 20px;
+    background-color: #FBF6E2;
+    border:2px solid #131842;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-family: "Baskervville SC", serif;
+}
+button:hover{
+    background-color: #131842;
+    border:#FBF6E2;
+    color: #FBF6E2;
+    font-weight: bold;
+    font-family: "Baskervville SC", serif;
+}
+button:active{
+    background-color: #FBF6E2;
+    border:2px solid #131842;
+    color: #131842;
+    font-weight: bold;
+    font-family: "Baskervville SC", serif;
+}
+#result{
+    color: #131842;
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: normal;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
