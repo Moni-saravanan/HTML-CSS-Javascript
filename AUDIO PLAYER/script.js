@@ -9,7 +9,7 @@ let pauseBtn=document.getElementById("pauseBtn");
 let photos=["one.jpeg","girlfriends.png","girl.jpg","father.jpg","gang.jpg","mother.jpg","dogs.jpg","tomandjerry.jpg","girlfriends.jpg","krishna.jpg","babycouple.jpg","heart.jpg","shivam.jpg"];
 let song=["one","boysfriends","girl","father","gang","mother","dogs","tomandjerry","girlfriends","krishna","babycouple","heart","shivam"];
 
-let Player=new Audio("/audios/one.mp3");
+let Player=new Audio("/one.mp3");
 
 play1.addEventListener('click', () => {
     if (playBtn.className === "fa fa-pause") {
@@ -32,9 +32,9 @@ next.addEventListener('click',()=>{
     else{
         i=0;
     }
-    Player.src="/audios/"+song[i]+".mp3"
+    Player.src="/"+song[i]+".mp3"
     Player.play();
-    img.src="/images/"+photos[i]
+    img.src="/"+photos[i]
 })
 
 prev.addEventListener('click',()=>{
@@ -45,9 +45,9 @@ prev.addEventListener('click',()=>{
     else{
         i=photos.length-1;
     }
-    Player.src="/audios/"+song[i]+".mp3"
+    Player.src="/"+song[i]+".mp3"
     Player.play();
-    img.src="/images/"+photos[i]
+    img.src="/"+photos[i]
 })
 Player.volume=0.1;
 vup.addEventListener('click',()=>{
